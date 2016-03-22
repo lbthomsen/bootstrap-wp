@@ -1,7 +1,3 @@
-<!--+
-    | 
-    +-->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Lars Boegild Thomsen">
 
     <title><?php bloginfo( 'description' ); ?></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -24,14 +20,19 @@
 </head>
 
 <body>
+    <div class="container">
 
-    <div class="blog-masthead">
-        <div class="container">
-            <nav class="blog-nav">
-                <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-            </nav>
-        </div>
+        <header class="row">
+            Header goes here
+        </header>
+
     </div>
+
+            <nav class="navbar navbar-default">
+        <div class="container">
+                <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+        </div>
+            </nav>
     
     <div class="container">
 
