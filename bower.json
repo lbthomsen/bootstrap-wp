@@ -1,9 +1,9 @@
 {
-  "name": "wordpress-bootstrap",
-  "version": "3.3.1",
+  "name": "bootstrap-wp",
+  "version": "0.0.1",
   "homepage": "https://github.com/320press/wordpress-bootstrap",
   "authors": [
-    "chrisbarnes <barnes.chris@gmail.com>"
+    "Lars Boegild Thomsen <lth@cow.dk>"
   ],
   "description": "A simple WordPress theme based on Bootstrap.",
   "moduleType": [
@@ -24,6 +24,6 @@
   "dependencies": {
     "modernizer": "~2.8.2",
     "font-awesome": "~4.2.0",
-    "bootstrap": "~3.3.1"
+    "bootstrap": "~3.3.6"
   }
 }

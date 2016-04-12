@@ -1,8 +1,8 @@
 {
-  "name": "wp_bootstrap",
-  "version": "3.2.0",
-  "author": "Chris Barnes <barnes.chris@gmail.com>",
-  "homepage": "http://cbarn.es",
+  "name": "bootstrap-wp",
+  "version": "0.0.1",
+  "author": "Lars Boegild Thomsen <lth@cow.dk>",
+  "homepage": "https://lth.cow.dk",
   "repository": {
     "type": "git",
     "url": "https://github.com/320press/wordpress-bootstrap.git"
