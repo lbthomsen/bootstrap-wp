@@ -30,7 +30,19 @@
 
             <nav class="navbar navbar-default">
         <div class="container">
-                <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+                <?php 
+                    wp_nav_menu( array( 
+                        'menu' => 'main-menu', 
+                        'theme_location' => 'main-menu', 
+                        'depth' => 2, 
+                        'container' => 'div', 
+                        'container-class', 'collapse navbar-collapse', 
+                        'container-id' => 'bs-example-navbar-collapse-1', 
+                        'menu_class' => 'nav navbar-nav', 
+                        'fallback_cb' => 'wp_bootstrap_navwalker::fallback', 
+                        'walker' => new wp_bootstrap_navwalker()) 
+                    ); 
+                ?>
         </div>
             </nav>
     
