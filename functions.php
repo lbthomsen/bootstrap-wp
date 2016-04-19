@@ -1,5 +1,4 @@
 <?php 
-
 /*
  *
  */
@@ -37,4 +36,7 @@ function register_my_widgets() {
 add_action( 'init', 'register_my_menus' );
 add_action( 'init', 'register_my_widgets' );
 
+/*
+ * vim: ts=4 et nowrap autoindent
+ */
 ?>
